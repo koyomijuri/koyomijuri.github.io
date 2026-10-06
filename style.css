@@ -80,6 +80,16 @@ h3, p, li, dd { overflow-wrap: anywhere; }
 .hero-juri { padding-bottom: 40px; }
 .hero-juri img { width: 100%; height: auto; max-height: 420px; object-fit: cover; object-position: top; border-radius: 20px; border: 4px solid #f6d27a; box-shadow: 0 14px 32px rgba(0,0,0,.45); transform: rotate(2deg); }
 
+/* SNS */
+.sns { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.sns a { display: inline-block; padding: 6px 14px; border-radius: 999px; font-size: 14px; font-weight: 700; text-decoration: none; }
+.hero-sns { margin-top: 18px; }
+.hero-sns a { color: #fff; border: 1.5px solid rgba(255,255,255,.7); }
+.hero-sns a:hover { background: rgba(255,255,255,.15); }
+.foot-sns { justify-content: center; margin-bottom: 12px; }
+.foot-sns a { color: var(--ink); border: 1.5px solid var(--line); background: var(--card); }
+.foot-sns a:hover { border-color: var(--pink); color: var(--pink); }
+
 /* セクション */
 section { padding: 72px 0; }
 section + section { border-top: 1px solid var(--line); }
